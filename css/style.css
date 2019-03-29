@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Carrois+Gothic+SC');
+
+body {
+  /* Remove user agent (browser) stylesheet styling */
+  padding: 0;
+  margin: 0;
+  font-family: 'Cardo', serif;
+}
+
+header {
+  background-color: #685E79;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: "Cardo", serif;
+  font-size: 70px;
+  letter-spacing: 20px;
+  word-spacing: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  margin-top: 1px;
+}
+
+nav {
+  background-color: #685E79;
+  padding: 30px, 30px, 30px, 30px;
+}
+
+/* Carrois Gothic SC */
+a {
+  font-family: 'Avenir Next', sans-serif;
+  color: white;
+  font-weight: 100;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 50px;
+}
+
+a:hover {
+  color: #FFFFFF;
+  /*text-decoration: underline;*/
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  padding: 0 50px 0 50px;
+  margin: 0 50px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  padding: 20px 50px 50px 20px;
+  font-size: 14px;
+}
+
+section {
+  /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
+  float: left;
+  /* We set a width of 50% to split the screen into two columns */
+  width: 50%;
+  height: 500px;
+}
+
+/* This class is applied to the 2nd section & the form in my HTML */
+.highlight {}
+
+/* This styles up elements in html with a class of .big-image */
+.big-image {
+  /* This stretches the background images to cover the sections */
+  background-size: cover;
+}
+
+/* These add different background images to the sections with id attributes */
+/* .. brings us out of the css folder, /images selects the images folder, /sea.jpg selects the sea.jpg image
+ */
+#topic-one {
+  background-image: url('../images/interior.jpg');
+  background-position: center;
+}
+
+#topic-two {
+  background-image: url('../images/scones.jpg');
+  background-position: center left;
+}
+
+#topic-three {
+  background-image: url('../images/platter window.jpg');
+  background-position: center;
+}
+
+div {
+  /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
+  transform: translateY(10%);
+  display: block;
+}
+
+form {
+  /* This fixes the floated layout and allows us to add height to the form */
+  clear: left;
+}
+
+button {
+  color: black;
+  position: right;
+  align: right;
+  transform: right;
+  /**/
+  /*HOW DO I MOVE THE BOTTON TO THE RIGHT AND CHANGE BUTTON FILL COLOUR NOT THE TEXT?*/
+}
