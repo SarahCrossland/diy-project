@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Carrois+Gothic+SC');
 
 body {
-  /* Remove user agent (browser) stylesheet styling */
-  padding: 0;
-  margin: 0;
   font-family: 'Cardo', serif;
 }
 
 header {
   background-color: #685E79;
   text-align: center;
-  padding-top: 20px;
 }
 
 h1 {
@@ -20,16 +16,14 @@ h1 {
   word-spacing: 5px;
   color: #FFFFFF;
   font-weight: 600;
-  text-decoration: none solid rgb(68, 68, 68);
-  font-style: normal;
   font-variant: small-caps;
   text-transform: lowercase;
-  margin-top: 1px;
+  padding-top: 38px;
 }
 
 nav {
   background-color: #685E79;
-  padding: 30px, 30px, 30px, 30px;
+  padding: 30px 0 35px 0;
 }
 
 /* Carrois Gothic SC */
@@ -38,8 +32,8 @@ a {
   color: white;
   font-weight: 100;
   text-decoration: none;
-  padding: 0;
-  margin: 0 50px;
+  padding: 20px 40px;
+  margin: 0 70px;
 }
 
 a:hover {
@@ -51,16 +45,17 @@ a:hover {
 h2 {
   text-align: center;
   padding: 0 50px 0 50px;
-  margin: 0 50px;
+  margin: 0 0 40px 0;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 p {
-  text-align: center;
-  padding: 20px 50px 50px 20px;
-  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 20px;
+  font-size: 18px;
 }
 
 section {
@@ -69,6 +64,10 @@ section {
   /* We set a width of 50% to split the screen into two columns */
   width: 50%;
   height: 500px;
+}
+
+section div {
+  padding: 0 40px;
 }
 
 /* This class is applied to the 2nd section & the form in my HTML */
@@ -100,8 +99,9 @@ section {
 
 div {
   /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
-  transform: translateY(10%);
+  transform: translateY(30%);
   display: block;
+  position: relative;
 }
 
 form {
@@ -110,10 +110,28 @@ form {
 }
 
 button {
-  color: black;
+  border: 2px solid #333333;
+  padding: 8px 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: ;
+  /*transparent*/
+  margin-top: 20px;
+  width: 15%;
+  height: 35px;
+  position: absolute;
+  right: 80px;
+  font-size: 14px;
+  font-family: "Cardo", serif;
+}
+
+button:hover {
+  border-color: #685E79;
+  color: #685E79;
+  font-weight: 700;
+  /**/
+  /*color: black;
   position: right;
   align: right;
-  transform: right;
-  /**/
-  /*HOW DO I MOVE THE BOTTON TO THE RIGHT AND CHANGE BUTTON FILL COLOUR NOT THE TEXT?*/
+  transform: right;HOW DO I MOVE THE BOTTON TO THE RIGHT AND CHANGE BUTTON FILL COLOUR NOT THE TEXT?*/
 }
