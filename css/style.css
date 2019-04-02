@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Carrois+Gothic+SC');
 
 body {
-  font-family: 'Cardo', serif;
+  font-family: 'Cardo', serif, 'Avenir Next';
+  color: #6f6f6f;
+  background-color: #F2F2FF;
 }
 
 header {
@@ -14,7 +16,7 @@ h1 {
   font-size: 70px;
   letter-spacing: 20px;
   word-spacing: 5px;
-  color: #FFFFFF;
+  color: white;
   font-weight: 600;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -22,14 +24,14 @@ h1 {
 }
 
 nav {
-  background-color: #685E79;
+  background-color: #C5C4D6;
   padding: 70px 0 35px 0;
 }
 
 /* Carrois Gothic SC */
 a {
-  font-family: 'Avenir Next', sans-serif;
-  color: white;
+  font-family: "Cardo", sans-serif;
+  color: #685E79;
   font-weight: 100;
   text-decoration: none;
   padding: 20px 40px;
@@ -44,18 +46,18 @@ a:hover {
 
 h2 {
   text-align: center;
-  padding: 0 50px 0 50px;
+  padding: 0px 0px 0 0px;
   margin: 0 0 40px 0;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 15px;
   font-weight: 600;
 }
 
 p {
   text-align: justify;
-  padding-bottom: 20px;
-  font-size: 18px;
+  padding: 0 30px 20px 30px;
+  font-size: 14px;
 }
 
 section {
@@ -67,7 +69,7 @@ section {
 }
 
 section div {
-  padding: 0 40px;
+  padding: 50px 50px 50px 50px;
 }
 
 /* This class is applied to the 2nd section & the form in my HTML */
