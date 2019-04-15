@@ -3,13 +3,13 @@
 body {
   font-family: 'Cardo', serif, 'Avenir Next';
   color: #685E79;
-  background-color: #F2F2FF;
-
+  background-color: #F5F5F5;
 }
 
 header {
   background-color: #685E79;
   text-align: center;
+  padding-top: 40px;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 
 nav {
   background-color: #685E79;
-  padding: 70px 0 35px 0;
+  padding: 70px 0 70px 0;
 }
 
 /* Carrois Gothic SC */
@@ -35,13 +35,13 @@ a {
   color: white;
   font-weight: 100;
   text-decoration: none;
-  padding: 20px 40px;
-  margin: 0 70px;
+  padding: 20px 0px;
+  margin: 0 40px;
 }
 
 a:hover {
   /*text-decoration: underline;*/
-  font-weight: 800;
+  text-decoration: underline;
 }
 
 h2 {
@@ -55,12 +55,17 @@ h2 {
 }
 
 p {
-  text-align: justify;
   padding: 0 30px 20px 30px;
   font-size: 14px;
 }
 
-section {
+section {}
+
+section div {
+  padding: 50px 50px 50px 50px;
+}
+
+.half-page {
   /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
   float: left;
   /* We set a width of 50% to split the screen into two columns */
@@ -68,13 +73,8 @@ section {
   height: 500px;
 }
 
-section div {
-  padding: 50px 50px 50px 50px;
-}
-
 /* This class is applied to the 2nd section & the form in my HTML */
 .highlight {
-
   background-color: white;
 }
 
@@ -111,66 +111,68 @@ div {
 
 form {
   /* This fixes the floated layout and allows us to add height to the form -     float: none;*/
-
-clear: left;
+  clear: left;
   padding: 50px 50px 50px 50px;
-  width: 100%;
-  height: 500px;
-  transform: translateY(30%) translateX(50%);
+  width: 50%;
   display: block;
   position: relative;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background-color: white;
+  clear: both;
+  padding: 90px 0;
 }
 
 button {
-  border: 0.5px solid transparent;
-  padding: 8px 0;
-  border-radius: 5px;
-  text-transform: none;
-  background-color:transparent;
-  /*transparent*/
-  margin-top: 20px;
   width: 50%;
   height: 35px;
-  position: absolute;
-  right: 80px;
+  /* position: absolute; */
+  /* right: 80px; */
   font-family: "Cardo", serif;
   text-align: center;
-  text-transform: none;
+  /* text-transform: none; */
   font-size: 14px;
-  color: #685E79;
-
 }
 
 button:hover {
-  color: #685E79;
+  color: white;
   text-decoration: underline;
-/**/
+  /**/
   /*color: black;
   position: right;
   align: right;
   transform: right;HOW DO I MOVE THE BOTTON TO THE RIGHT AND CHANGE BUTTON FILL COLOUR NOT THE TEXT?*/
 }
 
-
 .form-button {
-  border: 0.5px solid none;
   padding: 8px 0;
-  border-radius: 5px;
+  border-radius: 0px;
   text-transform: none;
-  background-color:white;
-
-
-
+  background-color: #685e79;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: white;
 }
 
+footer {
+  font-family: 'Cardo', serif;
+  font-size: 13px;
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  padding: 35px 25px;
+  margin: 0 0px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #685E79;
+}
 
-footer {font-family: 'Cardo', serif;
-font-size: 13px;
-text-transform: none;
-text-decoration: none;
-font-style: normal;
-padding: 35px 25px;
-margin: 0 0px;
-color: #ffffff;
-text-align: center;
-background-color: #685E79;}
+a.link {
+  color: inherit;
+  margin: 0;
+  padding: 0 30px 20px 30px;
+  font-size: 14px;
+}
