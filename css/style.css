@@ -88,7 +88,7 @@ section div {
 /* .. brings us out of the css folder, /images selects the images folder, /sea.jpg selects the sea.jpg image
  */
 #topic-one {
-  background-image: url('../images/interior.jpg');
+  background-image: url('https://github.com/SarahCrossland/diy-project/blob/master/images/INTERIOR.jpg?raw=true');
   background-position: center;
 }
 
