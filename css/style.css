@@ -88,17 +88,17 @@ section div {
 /* .. brings us out of the css folder, /images selects the images folder, /sea.jpg selects the sea.jpg image
  */
 #topic-one {
-  background-image: url('https://github.com/SarahCrossland/diy-project/blob/master/images/INTERIOR.jpg?raw=true');
+  background-image: url('images/INTERIOR.jpg');
   background-position: center;
 }
 
 #topic-two {
-  background-image: url('../images/scones.jpg');
+  background-image: url('images/scones.jpg');
   background-position: center left;
 }
 
 #topic-three {
-  background-image: url('../images/platter window.jpg');
+  background-image: url('images/platter window.jpg');
   background-position: center;
 }
 
